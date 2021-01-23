@@ -1,104 +1,48 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" alt="Gatsby"/>
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby <a href="https://store.gatsbyjs.org">Swag Store</a>
+  Gatsby minimal starter
 </h1>
 
-This is the Gatsby store, where we make swag, stickers, and other Gatsby goodies available to contributors and Gatsby enthusiasts. 💪💜
+## 🚀 Quick start
 
-<p align="center">
-  <img alt="Gatsby socks with Dora for scale." src="https://store.gatsbyjs.org/instagram-doraforscale.jpg" />
-  Photo credit: <a href="https://instagram.com/doraforscale">doraforscale</a>
-</p>
+1.  **Create a Gatsby site.**
 
-See it live: [store.gatsbyjs.org](https://store.gatsbyjs.org)
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-## Technical Overview
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-This store is built with data from:
+2.  **Start developing.**
 
-- [Shopify](https://www.shopify.com/)
-- The [Shopify JavaScript Buy SDK](https://shopify.github.io/js-buy-sdk/)
-- [Auth0](https://auth0.com/)
+    Navigate into your new site’s directory and start it up.
 
-We’re using [Gatsby V2](https://github.com/gatsbyjs/gatsby) and [Emotion](https://emotion.sh/) to get the data on screen.
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-The store is statically rendered using the Shopify source plugin, and the maintainer dashboard is a dynamic app (e.g. client-only routes) protected by Auth0.
+3.  **Open the code and start customizing!**
 
-## Free Swag for Contributors
+    Your site is now running at http://localhost:8000!
 
-If you're a contributor to Gatsby, that means you can get one free item from our store! Log in using your GitHub account and we'll give you a discount code good for a t-shirt or socks. With five or more contributions, You can claim your **level two** swag!
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-See [the docs for claiming contributor swag](https://www.gatsbyjs.com/contributing/contributor-swag/) for additional details.
+4.  **Learn more**
 
-## Cheap Swag for All
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-We sell our swag at pretty close to cost (we round for easy math) and we don’t charge shipping fees. Grab a t-shirt or socks and show everyone your favorite blazing fast framework!
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## Frequently Asked Questions
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-<details>
-  <summary><strong>Why does it say I'm not eligible when I enter the discount code?</strong></summary>
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-Try opening the store in an incognito window and then proceed to check out. When checking out, make sure you're using the same email that's listed on your GitHub account.
-
-</details>
-
-<details>
-  <summary><strong>Why can't I get the store to authenticate?</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-We _think_ this is a local storage issue, and it only seems to happen in Safari-based browsers. This includes all iOS browsers. Please see [this issue](https://github.com/gatsbyjs/store.gatsbyjs.org/issues/106) for details (or to help us fix it).
-
-</details>
-
-<details>
-  <summary><strong>Why won't my credit card work?</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-Please make sure the card isn't frozen or otherwise blocked by your financial institution. If it's not that, please send us an email to team@gatsbyjs.com if you're unable to pay with your credit card.
-
-</details>
-
-<details>
-  <summary><strong>I've been waiting for my package, but it hasn't arrived yet.</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-International shipments can take up to 6 weeks to be delivered. 😱 Tracking updates may not always show up in real time on your tracking link. If you still have not received your order at the end of 6 weeks, please let us know by sending an email to team@gatsbyjs.com, and we'll see how we can help!
-
-</details>
-
-<details>
-  <summary><strong>I wanted to order something but it's out. How long will it take before it's back in stock?</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-Some of the swag has been selling like hotcakes (only less tasty and providing a bit more coverage). Once an item is out, it takes us about 3 weeks for it to get back in stock.
-
-</details>
-
-<details>
-  <summary><strong>The delivery service is telling me I need to pay additional fees to get my order. I thought Gatsby covered shipping costs. What gives?</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-On some international orders, customs will add additional taxes, duties, and other fees. This is unpredictable, and we have no way of knowing if or when it will happen, or how much it will be. If this happens to you, there is, unfortunately, nothing else Gatsby can do. You are responsible for paying any additional fees imposed as part of the customs process. Thanks for your understanding!
-
-</details>
-
-<details>
-  <summary><strong>Help! I received the wrong swag clothing size. What do I do?</strong></summary>
-
-&nbsp; <!-- leave this here to avoid smashing the text against the summary -->
-
-If you ended up with the wrong t-shirt or other clothing size by mistake, contact us via email with your order number at <a href="mailto:team@gatsbyjs.com">team@gatsbyjs.com</a> and we'll work with you to fix it. You don't have to submit another PR to get the correct size!
-
-</details>
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
